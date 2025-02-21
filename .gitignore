@@ -1,0 +1,40 @@
+# Byte-compiled / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.venv/
+
+# Logs and cache
+*.log
+*.cache
+*.egg-info/
+*.pytest_cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# GitHub Actions & Workflow artifacts
+.github/scripts/__pycache__/
+.github/workflows/*.log
+
+# Dependency management
+poetry.lock
+Pipfile.lock
+requirements.txt~
+
+# Local development files
+pr_diff.txt  # Prevent storing local test PR diff files
+
